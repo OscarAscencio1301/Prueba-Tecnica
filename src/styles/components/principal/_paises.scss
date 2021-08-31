@@ -17,6 +17,7 @@ body{
         align-items: center;
         height: 100vh;
         padding: 2rem;
+        margin: 0;
     }
 }
 .paises__titulo{
@@ -44,13 +45,13 @@ body{
 }
 
 .paises__select{
-    appearance: none;
     font-size: 1.3rem;
     width: 100%;
     outline: none;
     padding: 0.4rem 1rem;
     border: none;
     border-bottom: 1px solid black;
+
 }
 
 .paises__btn{
