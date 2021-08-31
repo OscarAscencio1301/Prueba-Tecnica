@@ -14,7 +14,7 @@ export const Navbar = () => {
                 <div className="navbar">
                     <NavLink to="/paises" className="navbar__enlace" activeClassName="actual">Contagiados</NavLink>
                     <NavLink to="/vacunas" className="navbar__enlace" activeClassName="actual">Vacunas</NavLink>
-                    <NavLink to="/mundial" className="navbar__enlace" activeClassName="actual">México</NavLink>
+                    <NavLink to="/mexico" className="navbar__enlace" activeClassName="actual">México</NavLink>
                 </div>
             </div>
             <div className="contenedor__movil">

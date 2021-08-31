@@ -1,0 +1,57 @@
+.mexico{
+    padding: 2rem;
+    height: auto;
+    background-color: $fondo;
+    @include pc() {
+        padding: 4rem;
+    }
+}
+.mexico__img{
+    border-radius: 20px;
+    width: 60%;
+    @include pc() {
+        width: 40%;
+    }
+}
+
+.mexico__titulo{
+    text-align: center;
+    font-size: 3rem;
+    color: $color1;
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+}
+.mexico__informacion{
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    @include pc() {
+        margin-bottom: 0;  
+    }
+}
+.mexico__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110%;
+    gap: 1rem;
+    @include pc() {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 80vh;
+
+    }
+}
+.mexico__info{
+    font-size: 1.6rem;
+    font-weight: lighter;
+    border-bottom: 1px solid $color3;
+    padding: 0.3rem;
+    text-align: center;
+}
+.mexico__dato{
+    font-weight: bold;
+}

@@ -15,7 +15,7 @@ export const MenuHamburguesaAbierto = () => {
             <Link to="/" className="navbar__enlace movil-t" onClick={cerrar}>Covid-19</Link>
             <NavLink to="/paises" className="navbar__enlace movil" activeClassName="actual" onClick={cerrar}>Contagiados</NavLink>
             <NavLink to="/vacunas" className="navbar__enlace movil" activeClassName="actual" onClick={cerrar}>Vacunas</NavLink>
-            <NavLink to="/mundial" className="navbar__enlace movil" activeClassName="actual" onClick={cerrar}>México</NavLink>
+            <NavLink to="/mexico" className="navbar__enlace movil" activeClassName="actual" onClick={cerrar}>México</NavLink>
         </div>
     )
 }

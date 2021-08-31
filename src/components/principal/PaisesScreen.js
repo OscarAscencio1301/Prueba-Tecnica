@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { buscarPais } from '../../actions/paises'
 import { useFetchPais } from '../../hooks/useFetchPais'
 import { useForm } from '../../hooks/useForm'
-import { Carga } from '../ui/Carga'
+import { CargaCompleta } from '../ui/CargaCompleta'
 import { PaisesResultado } from './PaisesResultado'
 
 export const PaisesScreen = () => {
@@ -50,6 +50,6 @@ export const PaisesScreen = () => {
             </div>
         )
     } else {
-        return <Carga />
+        return <CargaCompleta />
     }
 }

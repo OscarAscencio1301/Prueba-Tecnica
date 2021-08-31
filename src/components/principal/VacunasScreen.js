@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { buscarPaisVacuna } from '../../actions/paises'
 import { useFetchPais } from '../../hooks/useFetchPais'
 import { useForm } from '../../hooks/useForm'
-import { Carga } from '../ui/Carga'
+import { CargaCompleta } from '../ui/CargaCompleta'
 import { Vacunasresultado } from './VacunasResultado'
 
 export const VacunasScreen = () => {
@@ -50,6 +50,6 @@ export const VacunasScreen = () => {
             </div>
         )
     } else {
-        return <Carga />
+        return <CargaCompleta />
     }
 }

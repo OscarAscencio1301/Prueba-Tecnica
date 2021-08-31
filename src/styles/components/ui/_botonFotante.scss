@@ -28,11 +28,14 @@
     justify-content: center;
     align-items: center;
 }
+
 .boton__flotante-abierto{
     background-color: white;
     box-shadow: 1px 1px 2px black;
     display: flex;
     flex-direction: column;
+    width: 72%;
+    margin-bottom: 1rem;
     align-items: center;
     padding: 3rem;
 
