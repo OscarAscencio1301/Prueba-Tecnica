@@ -1,6 +1,6 @@
 # Prueba Técnica
 
-## Herrramientas de Desarrollo:
+## Herrramientas Utilizadas:
 - ReactJS
 - Redux
 - Sass
@@ -29,6 +29,4 @@ Utilizamos el comando: npm run build
 ~~~
 
 ## Visitar en:
-~~~
 URL: https://oscarascencio1301.github.io/Prueba-Tecnica/
-~~~
