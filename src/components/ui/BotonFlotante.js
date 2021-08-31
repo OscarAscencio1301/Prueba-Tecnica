@@ -5,7 +5,6 @@ import { BotonAbierto } from './BotonAbierto'
 
 export const BotonFlotante = () => {
     const { abierto, botonFlotante } = useSelector(state => state.menu)
-    console.log(botonFlotante)
 
     const dispatch = useDispatch()
     const abrirBTN = () => {

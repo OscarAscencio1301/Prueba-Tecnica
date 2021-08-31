@@ -13,7 +13,7 @@ export const BotonAbierto = () => {
         <div className="flotante__relleno">
             <div className="boton__flotante-abierto animate__animated animate__fadeIn">
                 <button className="cerrar__menu" onClick={cerrar}>X</button>
-                <h2 className="boton__flotante-titulo">Cifras al Momento</h2>
+                <h2 className="boton__flotante-titulo">Cifras al Momento en México</h2>
                 <div className="boton__flotante-container">
                     <div className="boton__flotante-item">
                         <h3 className="boton__flotante-cifra">426,282</h3>

@@ -12,9 +12,9 @@ export const Navbar = () => {
                     </Link>
                 </div>
                 <div className="navbar">
-                    <NavLink to="/paises" className="navbar__enlace" activeClassName="actual">Países</NavLink>
-                    <NavLink to="/mundial" className="navbar__enlace" activeClassName="actual">Mundial</NavLink>
+                    <NavLink to="/paises" className="navbar__enlace" activeClassName="actual">Contagiados</NavLink>
                     <NavLink to="/vacunas" className="navbar__enlace" activeClassName="actual">Vacunas</NavLink>
+                    <NavLink to="/mundial" className="navbar__enlace" activeClassName="actual">México</NavLink>
                 </div>
             </div>
             <div className="contenedor__movil">

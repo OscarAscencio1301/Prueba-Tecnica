@@ -1,0 +1,34 @@
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.resultado__pais{
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    width: 80%;
+    text-align: center;
+    padding: 0.5rem;
+}
+.resultado__capital{
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.resultado__poblacion{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.resultado__confirmados{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.resultado__continente{
+    font-size: 1.2rem;
+}
+
+.poblacion, .confirmados{
+    font-weight: bold;
+    font-size: 1.4rem;
+}

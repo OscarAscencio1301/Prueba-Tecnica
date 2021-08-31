@@ -1,0 +1,64 @@
+.vacunas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    height: 110vh;
+    background-color: $fondo;
+    text-align: center;
+
+    @include pc() {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        height: 90vh;
+        padding: 2rem;
+    }
+}
+.vacunas__titulo{
+    text-align: center;
+}
+.vacunas__consulta, .vacunas__resultado{
+    flex: 0 0 30%;
+    background-color: $color3;
+    padding: 2rem;
+    width: 80%;
+    margin-top: 1rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px black;
+    height: 50%;
+    @include pc() {
+        flex: 0 0 45%;
+        height: 60%;
+    }
+}
+
+
+
+.vacunas__form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.vacunas__select{
+    appearance: none;
+    font-size: 1.3rem;
+    width: 100%;
+    outline: none;
+    padding: 0.4rem 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.vacunas__btn{
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: $color2;
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem 0;
+}

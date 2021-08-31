@@ -7,4 +7,10 @@ export const types = {
     // Boton Flotante
     abrirBoton: '[btn] Abierto',
     cerrarBoton: '[btn] Cerrado',
+
+    // Contagiados
+    buscarPais: '[Buscar] país',
+
+    // Vcunas
+    buscarPaisVacuna: '[Buscar] país Vacuna'
 }
