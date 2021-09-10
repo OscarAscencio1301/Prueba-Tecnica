@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom'
 import { Mexico } from '../components/principal/Mexico'
 import { PaisesScreen } from '../components/principal/PaisesScreen'
 import { PrincipalScreen } from '../components/principal/PrincipalScreen'
